@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import ProductListPage from "./pages/ProductListPage";
 import "./App.css";
 import { ToastProvider } from "./context/ToastContext";
+import ProductFormPage from './pages/ProductFormPage';
 
 export default function App() {
   return (
