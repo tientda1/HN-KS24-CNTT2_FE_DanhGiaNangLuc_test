@@ -37,9 +37,9 @@
 
 > Mục 4.3.1 đến 4.3.3 và ý c của Mục 4.3.4 chấm trực tiếp trên mã nguồn.
 
-- [ ] 4.3.1. Tìm kiếm và lọc
-- [ ] 4.3.2. Phân trang
-- [ ] 4.3.3. Đồng bộ URL
+- [x] 4.3.1. Tìm kiếm và lọc
+- [x] 4.3.2. Phân trang
+- [x] 4.3.3. Đồng bộ URL
 
 ### 4.3.4. Phản biện mã do AI sinh
 

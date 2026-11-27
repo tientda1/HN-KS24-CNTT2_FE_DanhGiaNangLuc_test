@@ -155,6 +155,64 @@ button:disabled {
   z-index: 100;
 }
 
+/* Thanh tìm kiếm & lọc */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.filter-bar input[type='search'] {
+  flex: 1 1 240px;
+  min-width: 0;
+  padding: 8px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.filter-bar select {
+  padding: 8px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #fff;
+}
+
+/* Phân trang */
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.pagination [data-testid='page-info'] {
+  margin-right: auto;
+  font-size: 14px;
+  color: #475569;
+}
+
+.pagination .page-button.active {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+}
+
+.pagination-gap {
+  padding: 0 4px;
+  color: #64748b;
+}
+
+@media (max-width: 767px) {
+  .pagination [data-testid='page-info'] {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
 /* Khối báo lỗi API */
 .error-box {
   padding: 16px;
